@@ -1,5 +1,5 @@
 total_tasks = 12
-hours_spent= 1,5
+hours_spent= 1.5
 Course= 'Python'
-average_time= (1,5 % 12)
-print('average_time:', '0,125')
+average_time= (hours_spent / total_tasks)
+print('Сourse:',Course,', Hours spent:',hours_spent,', Total tasks:',total_tasks,', Average time:',average_time)
